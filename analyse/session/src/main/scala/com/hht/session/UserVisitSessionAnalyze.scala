@@ -122,6 +122,8 @@ object UserVisitSessionAnalyze {
               然后对每一个cid的一个（sessionid，count）排序取前10
      */
     getTop10Session(sparkSession, taskUUID, top10CategoryList, filterdSessionId2UserVisitActionRDD)
+
+    sparkSession.close()
   }
 
   def getTop10Session(sparkSession: SparkSession, taskUUID: String, top10CategoryList: Array[(CategorySortKey, String)], filterdSessionId2UserVisitActionRDD: RDD[(String, UserVisitAction)]): Unit = {
