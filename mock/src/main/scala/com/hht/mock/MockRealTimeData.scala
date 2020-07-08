@@ -1,12 +1,4 @@
-/*
- * Copyright (c) 2018. hht Inc. All Rights Reserved.
- */
-
 package com.hht.mock
-
-/*
- * Copyright (c) 2018. hht Inc. All Rights Reserved.
- */
 
 import java.util.Properties
 
