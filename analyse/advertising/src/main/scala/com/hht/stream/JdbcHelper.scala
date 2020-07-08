@@ -1,12 +1,8 @@
-/*
- * Copyright (c) 2018. Atguigu Inc. All Rights Reserved.
- */
-
 package com.hht.stream
 
 import java.sql.ResultSet
 
-import com.atguigu.commons.pool.{CreateMySqlPool, QueryCallback}
+import com.hht.commons.pool.{CreateMySqlPool, QueryCallback}
 
 import scala.collection.mutable.ArrayBuffer
 
